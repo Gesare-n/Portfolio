@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import IoT from '../../assets/IoT.png';
+import art from '../../assets/art.png';
+import  health from '../../assets/health.png';
+import gaming from '../../assets/gaming.png';
+import cars from '../../assets/cars.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,29 +12,36 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={IoT}
+          link="https://github.com"
+          h3="  IoT"
+          p="Internet Of Things"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={art}
+          link="https://github.com/Gesare-n/AfroArtHub"
+          h3="Art"
+          p="AfroArt Hub App"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={health}
+          link="https://github.com/Gesare-n/Immunization-App"
+          h3="Health"
+          p="Immunization App"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={gaming}
+          link="https://github.com/Gesare-n/Game-Haven"
+          h3="Gaming"
+          p="Game Haven "
         />
+        <ProjectCard
+          src={cars}
+          link="https://github.com/Gesare-n/Car-Renting-Platform"
+          h3="Cars"
+          p="Luxoride"
+        />
+        
       </div>
     </section>
   );

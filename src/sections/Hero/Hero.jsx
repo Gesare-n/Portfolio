@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/design.jpeg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Nicole G Onyiego"
         />
         <img
           className={styles.colorMode}
@@ -36,25 +36,26 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Nicole G
           <br />
-          Johnsen
+          Onyiego
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/N_Gesare" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Gesare-n" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/nicole-onyiego-06a2a4265/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
+          
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          developing  web apps and games
+
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
